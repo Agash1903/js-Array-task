@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript program</title>
+   
+</head>
+<body>
+    <script>
+        // Array split
+
+let array7= "Hello, World!";
+console.log("Array Split");
+console.log(array7.split(", "));
+
+// Array sort
+
+let array9= [4,3,7,9,2,1];
+console.log("Array Sort");
+console.log(array9.sort((a, b) => a - b));
+
+// Array filter
+
+let array10= [4,3,7,9,2,1];
+console.log("Array Filter");
+console.log(array10.filter(num => num > 5));
+
+// Array flattering
+
+let array11= [[1,2],[3,4],[5,6]];
+console.log("Array Flattering");
+console.log(array11.flat());
+
+// Array reduce
+
+let array12= [1,2,3,4,5];
+console.log("Array Reduce");
+console.log(array12.reduce((a, b) => a + b));
+
+// Array destructing
+
+let array13= [1,2,3,4,5];
+console.log("Array Destructuring");
+let [a, b, c, d, e] = array13;
+console.log(a, b, c, d, e);
+
+// Array object sorting
+
+let array14= [{name: "Agash", age: 20}, {name: "vadakku", age: 32}, {name: "vijay", age: 30}];
+console.log("Array Object Sorting");
+console.log(array14.sort((a, b, c) => a.name + b.name));
+
+// Array deduplication
+
+let array15= [1,2,2,3,3,3,4,4,4,4];
+console.log("Array Deduplication :",array15);
+console.log(Array.from(new Set(array15)));
+
+// Array Merging
+
+    
+    </script>
+    
+</body>
+</html>
